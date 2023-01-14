@@ -37,7 +37,7 @@
     max-width: 1440px;
     width: 100%;
     margin: 0 auto;
-    padding-top: 60px;
+    padding-top: 40px;
 
 }
 
@@ -334,9 +334,18 @@ nav {
         gap: 25px;
     }
 
+    .nav-logo {
+        font-size: 35px;
+        margin-top: -20px;
+    }
+
     .nav-link {
         flex-direction: column;
-        margin-top: 20px;
+    }
+
+    .banner-title {
+        font-size: 45px;
+        margin-top: -60px;
     }
 
     .feature-up,
@@ -349,15 +358,13 @@ nav {
     }
 
     .feature-info {
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
         text-align: center;
         padding: 20px;
     }
 
     .feature-banner>img {
         width: 100%;
+        padding: 20px;
     }
 
     .sponsorship-container p {
@@ -382,8 +389,31 @@ nav {
         gap: 25px;
     }
 
-    .btn-feature{
+    .btn-feature {
         position: static;
         left: 50px;
+        padding: 20px 20px;
+    }
+
+    .feature-btn-bold {
+        font-weight: 600;
+        font-size: 40px;
+    }
+
+    .banner-description {
+        width: 90%;
+    }
+
+    .btn-primary {
+        padding: 15px 20px;
+        font-size: 16px;
+    }
+
+    .facts-title,
+    .sponsorship-title,
+    .clients-title {
+        font-weight: 600;
+        font-size: 35px;
+        margin-bottom: 12px;
     }
 }
