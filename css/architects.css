@@ -121,7 +121,8 @@ nav {
     grid-template-columns: repeat(2, 1fr);
     gap: 24px;
 }
-.feature-photo img{
+
+.feature-photo img {
     border-radius: 8px;
 }
 
@@ -132,7 +133,7 @@ nav {
 }
 
 .feature-primary-title,
-.feature-secondary-title {
+.feature-seondary-title {
     font-weight: 700;
     font-size: 45px;
 
@@ -142,7 +143,7 @@ nav {
     color: var(--primary-color);
 }
 
-.feature-secondary-title {
+.feature-seondary-title {
     color: var(--dark-color);
 }
 
@@ -151,4 +152,58 @@ nav {
     font-size: 16px;
     color: var(--ash-color);
     padding: 24px 0 32px 0;
+}
+
+/* fetaure downpart styles */
+.feature-down-container {
+    position: relative;
+}
+
+.feature-down {
+    display: flex;
+    gap: 146px;
+
+}
+
+.btn-feature {
+    padding: 45px;
+    position: absolute;
+    top: 850px;
+    right: 500px;
+    border-radius: 8px;
+}
+
+.feature-btn-bold {
+    font-weight: 700;
+    font-size: 65px;
+}
+
+.feature-details-title {
+    font-weight: 700;
+    font-size: 45px;
+    padding-left: 18px;
+    border-left: 5px solid var(--primary-color);
+    color: var(--dark-color);
+    margin-bottom: 10px;
+}
+.feature-detail-list{
+    padding-top: 10px;
+}
+
+.detail {
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.detail-title {
+    font-weight: 600;
+    font-size: 20px;
+    color: var(--dark-color);
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+.detail>p {
+    padding: 10px 42px 30px 30px;
 }
