@@ -21,7 +21,8 @@
 }
 
 /* common / utilities */
-.container {
+.container,
+.footer-section {
     background-color: var(--biscuit-color);
 
 }
@@ -29,7 +30,10 @@
 /* header section styles */
 .header-container,
 .feature-section,
-.facts-container {
+.facts-container,
+.sponsorship-container,
+.footer-section,
+.clients-container {
     max-width: 1450px;
     width: 100%;
     margin: 0 auto;
@@ -163,7 +167,6 @@ nav {
 .feature-down {
     display: flex;
     gap: 146px;
-
 }
 
 .btn-feature {
@@ -213,7 +216,9 @@ nav {
 /* facts awards section styles */
 .facts-container {}
 
-.facts-title {
+.facts-title,
+.sponsorship-title,
+.clients-title {
     font-weight: 700;
     font-size: 45px;
     color: var(--dark-color);
@@ -226,6 +231,7 @@ nav {
     text-align: center;
     margin-top: 100px;
     padding-bottom: 180px;
+    flex-wrap: wrap;
 }
 
 .award {
@@ -251,4 +257,74 @@ nav {
     font-weight: 600;
     font-size: 20px;
     color: var(--ash-color);
+}
+
+/* sponshirip logo */
+.sponsorship-container {
+    text-align: center;
+    margin-top: 60px;
+}
+
+
+.sponsorship-container p {
+    width: 38%;
+    margin: 24px auto;
+}
+
+.sponsorship-logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    margin-bottom: 130px;
+}
+
+.sponsorship-logo img {
+    filter: grayscale(1);
+}
+
+.sponsorship-logo .first-logo {
+    margin-top: 7px;
+}
+
+.footer-section .section-description {
+    font-weight: 400;
+    font-size: 20px;
+    color: var(--dark-color);
+    text-align: center;
+    padding-bottom: 40px;
+    margin-bottom: 30px;
+}
+
+/* clients says */
+.clients-comment {
+    display: flex;
+    text-align: center;
+    gap: 40px;
+}
+
+.client {
+    box-shadow: 0px 12px 30px rgba(0, 0, 0, 0.13);
+    border-radius: 5px;
+    padding: 20px 50px;
+}
+
+.clients-comment .client > img{
+    margin: 10px 0;
+}
+
+.clients-title{
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+
+/* responsive */
+
+@media only screen and (max-width:576px) {
+    nav{
+        flex-direction: column;
+    }
+    
 }
