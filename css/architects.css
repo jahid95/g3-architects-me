@@ -170,7 +170,7 @@ nav {
 }
 
 .btn-feature {
-    padding: 45px;
+    padding: 35px 45px;
     position: absolute;
     top: 850px;
     right: 500px;
@@ -348,10 +348,14 @@ nav {
         margin-top: -60px;
     }
 
-    .feature-up,
-    .feature-down {
+    .feature-up
+     {
+        flex-direction: column;
+    }
+    .feature-down{
         flex-direction: column-reverse;
     }
+
 
     .feature-photo {
         grid-template-columns: repeat(1, 1fr);
@@ -385,13 +389,14 @@ nav {
     }
 
     .award-container {
-        padding-left: 30px;
+        padding-left: 20px;
         gap: 25px;
     }
 
     .btn-feature {
-        position: static;
-        left: 50px;
+        position: relative;
+        left: 40px;
+        top: -50px;
         padding: 20px 20px;
     }
 
