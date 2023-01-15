@@ -132,6 +132,7 @@ nav {
 }
 
 .feature-title {
+    width: 70%;
     font-weight: 500;
     font-size: 45px;
     color: var(--ash-color);
@@ -183,6 +184,7 @@ nav {
 }
 
 .feature-details-title {
+    width: 70%;
     font-weight: 700;
     font-size: 45px;
     padding-left: 18px;
@@ -364,6 +366,14 @@ nav {
     .feature-info {
         text-align: center;
         padding: 20px;
+    }
+
+    .feature-title{
+        width: 100%;
+    }
+
+    .feature-details-title{
+        width: 100%;
     }
 
     .feature-banner>img {
